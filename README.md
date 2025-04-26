@@ -10,7 +10,11 @@
   ![image](https://github.com/user-attachments/assets/b3b49e61-9d9d-4390-b55e-2d7925fa4927)
 # Chạy ứng dụng bằng lệnh sau
   npm run dev
+
+  
   ![image](https://github.com/user-attachments/assets/21a6866d-c71d-4c07-8c74-e261e618bcf5)
+
+  
   Nhấn giữ nút ctrl và click chuột trái vào trong URL
 # Trang chủ
   ![image](https://github.com/user-attachments/assets/40550446-a790-4d47-b90b-2e7c8df68508)
