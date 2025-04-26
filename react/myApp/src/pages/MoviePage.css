@@ -1,0 +1,95 @@
+/* src/pages/MoviePage.css */
+.movie-page {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .movie-page h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  /* Định dạng lưới phim */
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Lưới linh hoạt */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Định dạng từng thẻ phim */
+  .movie-card {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-card:active {
+    transform: translateY(2px);
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .movie-title {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ff4c68;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #ff3385;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Thêm hiệu ứng ánh sáng động */
+  .movie-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+    z-index: 0;
+    border-radius: 8px;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover::before {
+    transform: scale(1.1);
+  }
+  
+  /* Hiệu ứng khi lướt chuột vào các thẻ phim */
+  .movie-card:hover .movie-title {
+    background-color: #a3f5f9;
+    color: #ff1515;
+  }
+  
+  @media (max-width: 768px) {
+    .movie-grid {
+      grid-template-columns: 1fr 1fr; /* Hiển thị 2 cột trên thiết bị nhỏ */
+    }
+  }
+  
