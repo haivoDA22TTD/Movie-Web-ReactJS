@@ -23,7 +23,7 @@
  # Ấn nút phát để xem và click đúp chuột vào video để xem toàn màn hình
    ![image](https://github.com/user-attachments/assets/d6bc5160-6f44-43ba-9732-2d7c084250e7)
   # Nhấn vào icon ba gạch để chọn tập muốn xem 
-    ![image](https://github.com/user-attachments/assets/ed30b7f1-7eb5-4f26-bb5d-37250ef20b87)
+   ![image](https://github.com/user-attachments/assets/ed30b7f1-7eb5-4f26-bb5d-37250ef20b87)
 
   
 
