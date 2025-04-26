@@ -1,5 +1,5 @@
 
-# Cài đặt những ứng dụng sau nếu chưa có 
+# Cài đặt những ứng dụng sau (nếu chưa có)
   # Vscode 
     https://code.visualstudio.com/
   # NodeJS
