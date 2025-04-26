@@ -1,4 +1,4 @@
-# Clone dự án về máy 
+
 # Cài đặt những ứng dụng sau nếu chưa có 
   # Vscode 
     https://code.visualstudio.com/
@@ -6,6 +6,9 @@
     https://nodejs.org/en
   # Git
     https://git-scm.com/
+    
+# Clone dự án về máy
+
   git clone https://github.com/haivoDA22TTD/Movie-Web-ReactJS.git
 # Mở IDE và chọn thư mục chứa dự án sau đó mở terminal
   ![image](https://github.com/user-attachments/assets/9a1f77cf-4cc6-41e7-8267-88382381ab76)
